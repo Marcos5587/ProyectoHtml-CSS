@@ -1,0 +1,68 @@
+/* --- Estilos base (para móviles) --- */
+/* Estilos generales del cuerpo del documento */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+/* Estilos para el encabezado y el pie de página */
+.encabezado,
+.pie-pagina {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+/* Estilos para el contenedor principal */
+.contenedor {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* --- Estilos para tablets y más grandes --- */
+/* Si la pantalla mide 768px o más... */
+@media (min-width: 768px) {
+  .contenedor {
+    display: flex; /* Activa Flexbox para alinear los elementos */
+    justify-content: space-between; /* Distribuye el espacio entre las cajas */
+  }
+  .caja {
+    width: 32%; /* Asigna un ancho a cada caja para que quepan en una fila */
+    margin-bottom: 0; /* Elimina el margen inferior ya que ahora están en fila */
+  }
+}
+/* --- Estilos base (para móviles) --- */
+/* Estilos generales del cuerpo del documento */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+/* Estilos para el encabezado y el pie de página */
+.encabezado,
+.pie-pagina {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+/* Estilos para el contenedor principal */
+.contenedor {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* --- Estilos para tablets y más grandes --- */
+/* Si la pantalla mide 768px o más... */
+@media (min-width: 768px) {
+  .contenedor {
+    display: flex; /* Activa Flexbox para alinear los elementos */
+    justify-content: space-between; /* Distribuye el espacio entre las cajas */
+  }
+  .caja {
+    width: 32%; /* Asigna un ancho a cada caja para que quepan en una fila */
+    margin-bottom: 0; /* Elimina el margen inferior ya que ahora están en fila */
+  }
+}
