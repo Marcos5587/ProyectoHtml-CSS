@@ -66,3 +66,28 @@ body {
     margin-bottom: 0; /* Elimina el margen inferior ya que ahora están en fila */
   }
 }
+
+/* --- Estilos para el menu nav --- */
+.menu {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+  padding: 15px;
+  background-color: #ffffff;
+  color: rgb(70, 70, 70);
+  list-style: none;
+}
+.menu a {
+  text-decoration: none;
+  color: rgb(70, 70, 70);
+}
+:hover.menu a {
+  color: rgb(70, 70, 70);
+  font-weight: bold;
+}
+.noticias article {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
