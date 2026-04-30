@@ -6,7 +6,7 @@
     "contenido": "En la siguiente imagen se muestra el calendario de actuaciones y los plazos de las pruebas.",
     "categoria": "Eventos",
     "importante": true,
-    "images" : "/images/noticia1.webp"
+    "images" : "images/noticia1.webp"
     },
     {
     "id": 2,
@@ -15,6 +15,6 @@
     "contenido": "La Conselleria de Educación, Cultura y Universidades ha publicado la Resolución de 17 de diciembre de 2025 por la que se convocan las pruebas homologadas del nivel A2 del Marco Común Europeo de Referencia para las Lenguas (MCER) para el curso 2025/2026.",
     "categoria": "Cultura",
     "importante": false,
-    "images" : "/images/noticia2.webp"
+    "images" : "images/noticia2.webp"
     }
 ]
